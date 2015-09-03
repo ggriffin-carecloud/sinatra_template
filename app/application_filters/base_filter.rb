@@ -1,0 +1,4 @@
+class BaseFilter
+    
+    
+end

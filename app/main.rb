@@ -1,4 +1,5 @@
-require_all 'app/filters', 'app/helpers'
+require_relative 'filters'
+require_relative 'helpers'
 
 class SatelliteApp < Sinatra::Base
   helpers Sinatra::JSON
