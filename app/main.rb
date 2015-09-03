@@ -1,6 +1,6 @@
 require_all 'app/filters', 'app/helpers'
 
-class TemplateApp < Sinatra::Base
+class SatelliteApp < Sinatra::Base
   helpers Sinatra::JSON
 
   enable :raise_errors

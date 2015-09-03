@@ -9,4 +9,4 @@ Bundler.require(:default)
 
 require File.expand_path('../app/main.rb', __FILE__)
 
-run TemplateApp
+run SatelliteApp
