@@ -1,0 +1,17 @@
+development: 
+  host: redis-store.development.carecloud.local:6379/15
+
+localhost: 
+  host: localhost:6379
+
+qa: 
+  host: cc-bl-redis01-qa.carecloud.local:6379/15
+
+staging: 
+  host: cc-tm01-redis01-stg:6379/15
+
+batch: 
+  host: cc-tm01-redis01-prod.carecloud.local:6379/15
+
+production: 
+  host: cc-tm01-redis01-prod.carecloud.local:6379/15

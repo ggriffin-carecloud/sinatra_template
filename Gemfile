@@ -1,7 +1,11 @@
 source "http://rubygems.org"
 
 gem "sinatra", :require => "sinatra/base"
-#gem 'pg'
+gem 'pg'
+
+gem 'central_framework' #, '0.0.2' , :require => 'central_framework/webservices' 
+#gem 'central_framework', path: '../central_framework' 
+
 
 gem "sinatra-contrib"
 

@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require 'fileutils'
+list = Dir.glob("config/*yml.example")
+
+list.each do |file|
+  next if File.directory?(file)
+  FileUtils.cp(file, file.chomp('.example'))
+end

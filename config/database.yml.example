@@ -1,0 +1,16 @@
+development:
+  adapter: postgresql
+  database: CareCloud_Dev
+  host: cc-pg-master.development.carecloud.local
+  username: postgres
+  password: c4r3cl0udr0cks!
+  schema_search_path: 'public,analytics,import_export,clinical,forms,library,advanced_analytics,subscriptions'
+
+qa:
+  adapter: postgresql
+  database: CareCloud_QA
+  host: cc-bl-db00-qa.carecloud.local
+  username: postgres
+  port: 5432
+  password:
+  schema_search_path: 'public,analytics,import_export,clinical,forms,library,advanced_analytics,subscriptions'
